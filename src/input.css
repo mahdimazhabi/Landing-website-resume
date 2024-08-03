@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: "Dana";
+    src: url("../font/Dana-Bold.ttf") format("truetype");
+    font-weight: bold;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: "Dana";
+    src: url("../font/Dana-Regular.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+  }
+}

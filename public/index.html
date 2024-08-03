@@ -1,0 +1,635 @@
+<!DOCTYPE html>
+<html lang="fa" class="dark" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Frontsaz - آژانس طراحی فرانت ساز به همراه تیمی متخصص در طراحی و توسعه وب‌سایت با سال‌ها تجربه در این زمینه در خدمت شماست. Your go-to platform for web design and development. Learn, create, and inspire.">
+    <meta name="keywords" content="Frontsaz, web design, web development, HTML, CSS, JavaScript">
+    <meta name="author" content="Mahdi Mazhabi">
+    <meta name="robots" content="index, follow">
+    <meta name="theme-color" content="#317EFB">
+    <meta http-equiv="Content-Language" content="fa">
+    <link rel="stylesheet" href="./output.css">
+    <link rel="icon" href="./icon/icon veb.jpg">
+    <title>Frontsaz</title>
+</head>
+
+
+
+<!--. -->
+
+
+<body class="bg-white dark:bg-darkBg text-black font-sans ">
+    <!-- svg  -->
+    <svg class="hidden">
+        <symbol id="Close" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+            stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12" />
+        </symbol>
+        <symbol id="bars-3" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+            stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+        </symbol>
+        <symbol id="telefoon" viewBox="0 0 14 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path
+                d="M3.9654 12.121C3.33207 12.121 2.70673 11.9612 2.14607 11.6481C1.31073 11.1818 0.720715 10.4152 0.528715 9.54412C0.404048 8.98193 0.686019 8.40586 1.23135 8.1115L2.99405 7.16083C3.84605 6.70058 4.94934 6.92438 5.50267 7.67176L6.01081 8.3576C7.45081 7.72061 8.63604 6.64569 9.34138 5.33612L8.58747 4.88252C7.76014 4.38487 7.50872 3.38895 8.01472 2.61564L9.05671 1.02317C9.38204 0.527336 10.0175 0.27037 10.6435 0.383773C11.6168 0.559911 12.4634 1.09375 12.9794 1.85018C13.4927 2.60298 13.6327 3.48367 13.3767 4.32877C12.248 8.04454 8.99402 10.9876 4.88402 12.0082C4.57935 12.0836 4.2714 12.121 3.9654 12.121ZM3.9501 7.82738C3.7981 7.82738 3.64542 7.86357 3.50609 7.93837L1.74405 8.88904C1.56271 8.98736 1.46801 9.17918 1.50935 9.36677C1.64735 9.9923 2.07146 10.543 2.67146 10.8778C3.26346 11.2084 3.95406 11.3001 4.61872 11.1354C8.38939 10.1986 11.376 7.49863 12.4107 4.08869C12.5934 3.48789 12.4927 2.86175 12.1267 2.32429C11.7567 1.7808 11.1481 1.39776 10.4568 1.2723C10.2394 1.23309 10.0248 1.31815 9.91609 1.48403L8.87409 3.0765C8.63876 3.43541 8.75539 3.89806 9.13939 4.12909L10.2468 4.79565C10.4468 4.91569 10.5234 5.14671 10.4314 5.34637C9.60338 7.14092 7.99671 8.59828 6.02204 9.34505C5.80338 9.42829 5.5468 9.35954 5.41413 9.17978L4.6708 8.17543C4.50547 7.95043 4.23077 7.82738 3.9501 7.82738Z"
+                fill="#042FF8" />
+        </symbol>
+        <symbol id="sms" viewBox="0 0 16 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path
+                d="M12 12.5166H4C2.388 12.5166 1.5 11.7131 1.5 10.2546V4.8257C1.5 3.36714 2.388 2.56366 4 2.56366H12C13.612 2.56366 14.5 3.36714 14.5 4.8257V10.2546C14.5 11.7131 13.612 12.5166 12 12.5166ZM4 3.46847C2.94867 3.46847 2.5 3.87443 2.5 4.8257V10.2546C2.5 11.2058 2.94867 11.6118 4 11.6118H12C13.0513 11.6118 13.5 11.2058 13.5 10.2546V4.8257C13.5 3.87443 13.0513 3.46847 12 3.46847H4ZM8.68604 7.94972L11.9606 5.79505C12.1839 5.64847 12.2333 5.36497 12.0706 5.16289C11.9086 4.96142 11.5967 4.91557 11.3721 5.06336L8.09733 7.21803C8.03866 7.25663 7.96069 7.25663 7.90202 7.21803L4.62728 5.06336C4.40195 4.91557 4.09071 4.96203 3.92871 5.16289C3.76604 5.36497 3.8154 5.64787 4.03874 5.79505L7.31331 7.95032C7.51865 8.08544 7.75935 8.1524 7.99935 8.1524C8.23935 8.1524 8.48137 8.08484 8.68604 7.94972Z"
+                fill="#042FF8" />
+        </symbol>
+        <symbol id="inestgrm" viewBox="0 0 16 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path
+                d="M14.46 4.97648C14.42 4.2104 14.2533 3.22717 13.3467 2.40681C12.44 1.58644 11.3533 1.43564 10.5067 1.39945C9.50001 1.35119 6.50667 1.34516 5.50667 1.39945C4.66001 1.43564 3.57333 1.58041 2.66667 2.40681C1.76 3.22717 1.59332 4.2104 1.55332 4.97648C1.49332 5.88733 1.49332 8.59574 1.55332 9.50055C1.59332 10.2666 1.75333 11.2499 2.66667 12.0763C3.58 12.8966 4.66667 13.0474 5.50667 13.0836C6.01334 13.1078 7.01333 13.1198 8.01333 13.1198C9.01332 13.1198 10.0067 13.1078 10.5067 13.0836C11.3533 13.0474 12.44 12.9027 13.3533 12.0763C14.26 11.2559 14.4267 10.2727 14.4667 9.50658C14.5267 8.59574 14.5267 5.89336 14.4667 4.98251L14.46 4.97648ZM13.46 9.4523C13.4067 10.3631 13.1667 10.9543 12.6333 11.4308C12.1067 11.9074 11.4533 12.1305 10.4467 12.1728C9.46667 12.221 6.54 12.221 5.54667 12.1728C4.54667 12.1245 3.89334 11.9013 3.36 11.4248C2.83334 10.9483 2.58666 10.3571 2.54 9.44627C2.48666 8.57765 2.48666 5.88733 2.54 5.01267C2.59333 4.10182 2.83334 3.51068 3.36 3.03414C3.88667 2.55761 4.54667 2.33442 5.54667 2.2922C6.04 2.26807 7.01333 2.25601 7.99333 2.25601C8.97333 2.25601 9.95334 2.26807 10.4467 2.2922C11.4533 2.34045 12.1067 2.5576 12.6333 3.04017C13.16 3.51671 13.4067 4.10786 13.4533 5.01871C13.5067 5.91146 13.5067 8.55955 13.4533 9.4523H13.46ZM8 4.37327C6.25333 4.37327 4.83333 5.65811 4.83333 7.23852C4.83333 8.81893 6.25333 10.1038 8 10.1038C9.74667 10.1038 11.1667 8.81893 11.1667 7.23852C11.1667 5.65811 9.74667 4.37327 8 4.37327ZM8 9.19895C6.80667 9.19895 5.83333 8.31826 5.83333 7.23852C5.83333 6.15877 6.80667 5.27808 8 5.27808C9.19333 5.27808 10.1667 6.15877 10.1667 7.23852C10.1667 8.31826 9.19333 9.19895 8 9.19895ZM12.3467 3.92086C12.3467 4.25263 12.0467 4.52407 11.68 4.52407C11.3133 4.52407 11.0133 4.25263 11.0133 3.92086C11.0133 3.5891 11.3067 3.31765 11.68 3.31765C12.0467 3.31765 12.3467 3.5891 12.3467 3.92086Z"
+                fill="#042FF8" />
+        </symbol>
+        <symbol id="telegrom" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="20" cy="20" r="20" fill="#EEF1FF" />
+            <path
+                d="M12.24 19.46C17.07 17.34 20.29 15.95 21.91 15.27C26.51 13.34 27.47 13.01 28.09 13C28.23 13 28.53 13.03 28.73 13.19C28.9 13.33 28.94 13.51 28.97 13.64C28.99 13.77 29.02 14.07 29 14.3C28.75 16.94 27.67 23.33 27.12 26.28C26.89 27.53 26.43 27.95 25.99 27.99C25.03 28.08 24.3 27.35 23.36 26.74C21.9 25.78 21.08 25.18 19.66 24.24C18.02 23.16 19.08 22.56 20.02 21.59C20.26 21.34 24.51 17.46 24.59 17.1C24.6 17.06 24.61 16.89 24.51 16.81C24.41 16.72 24.27 16.75 24.17 16.78C24.02 16.81 21.69 18.36 17.18 21.43C16.52 21.89 15.92 22.11 15.38 22.1C14.79 22.09 13.65 21.76 12.8 21.49C11.76 21.15 10.94 20.97 11.01 20.39C11.05 20.09 11.46 19.78 12.24 19.47V19.46Z"
+                fill="#042FF8" />
+        </symbol>
+        <symbol id="moon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+            stroke="currentColor" class="size-6">
+            <path stroke-linecap="round" stroke-linejoin="round"
+                d="M21.752 15.002A9.72 9.72 0 0 1 18 15.75c-5.385 0-9.75-4.365-9.75-9.75 0-1.33.266-2.597.748-3.752A9.753 9.753 0 0 0 3 11.25C3 16.635 7.365 21 12.75 21a9.753 9.753 0 0 0 9.002-5.998Z" />
+        </symbol>
+        <symbol id="sun" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+            stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round"
+                d="M12 3v2.25m6.364.386-1.591 1.591M21 12h-2.25m-.386 6.364-1.591-1.591M12 18.75V21m-4.773-4.227-1.591 1.591M5.25 12H3m4.227-4.773L5.636 5.636M15.75 12a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0Z" />
+        </symbol>
+        <symbol id="arrow-up" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+            stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 10.5 12 3m0 0 7.5 7.5M12 3v18" />
+        </symbol>
+
+
+    </svg>
+
+
+    <div class="bg-white dark:bg-gray-900" id="divnet">
+        <div
+            class="fixed mt-10 flex items-center justify-center p-8 mr-8 bg-gray-800 dark:bg-white rounded-lg shadow-lg ">
+            <p class="text-white dark:text-gray-800">دسترسی به اینترنت موجود نیست</p>
+            <svg class="w-5 h-5 absolute top-2 left-2 text-white dark:text-gray-800 cursor-pointer" id="iconclosenet">
+                <use xlink:href="#Close"></use>
+            </svg>
+        </div>
+    </div>
+
+    <div class="fixed left-0 bottom-0 mb-8 ml-8 flex items-center justify-center p-4 bg-gray-800 dark:bg-gray-200 rounded-full shadow-lg z-10"
+        id="aroww-up">
+        <svg class="w-6 h-6 text-white dark:text-gray-800">
+            <use xlink:href="#arrow-up"></use>
+        </svg>
+    </div>
+    <div class="fixed  bottom-0 mb-8 mr-8 flex items-center justify-center p-4 bg-gray-800 dark:bg-gray-200 rounded-full shadow-lg"
+        id="aroww-down">
+        <svg class="w-6 h-6 text-white rotate-180 dark:text-gray-800">
+            <use xlink:href="#arrow-up"></use>
+        </svg>
+    </div>
+
+    <header>
+
+
+
+        <nav class="  hidden lg:flex justify-center mt-[15px] gap-x-[150px] items-cente  ">
+
+
+
+            <!-- Header -->
+            <div>
+                <ul class="flex  gap-x-16 dark:text-white cursor-pointer  ">
+                    <div class="hover:drop-shadow-xl" id="tem">
+                        <svg id="moon-icon" class="w-6 h-6    rotate-[249deg] text-white cursor-pointer ">
+                            <use xlink:href="#moon"></use>
+                        </svg>
+                        <svg id="sun-icon" class="w-6 h-6    cursor-pointer ">
+                            <use xlink:href="#sun"></use>
+                        </svg>
+                    </div>
+                    <li class="hover:drop-shadow-xl  dark:text-white "> <a href="#">
+                            خدمات
+                        </a></li>
+                    <li class="hover:drop-shadow-xl  dark:text-white "> <a href="#">
+                            نظرات
+                        </a></li>
+                </ul>
+            </div>
+            <div class="flex justify-center">
+
+                <svg class="w-[198px] h-[605] absolute top-0   " viewBox="0 0 198 50" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path d="M0 0H198V0C198 27.6142 175.614 50 148 50H50C22.3858 50 0 27.6142 0 0V0Z" fill="#042FF8" />
+                </svg>
+
+            </div>
+
+
+            <div>
+                <ul class="flex gap-x-16">
+                    <li class="hover:drop-shadow-xl dark:text-white"> <a href="#">
+                            تخفیف
+                        </a></li>
+                    <li class="hover:drop-shadow-xl dark:text-white "> <a href="#">
+                            نمونه کارها
+                        </a></li>
+                    <li class="hover:drop-shadow-xl dark:text-white "> <a href="#">
+                            ارتباط
+                        </a></li>
+                </ul>
+            </div>
+
+
+        </nav>
+    </header>
+    <!-- Mobile Design header -->
+    <div>
+        <!-- icon bars-3 -->
+        <svg class="w-5 h-5 mt-4 mr-4 lg:hidden dark:text-white cursor-pointer" id="icons-bars">
+            <use xlink:href="#bars-3"></use>
+        </svg>
+    </div>
+
+    <div class="fixed top-0 right-0 bottom-0 w-64 min-h-screen z-20 md:hidden bg-white  dark:bg-darkBg shadow-2xl shadow-white hidden cursor-pointer "
+        id="header-moblie">
+
+        <div class="flex justify-end items-center  border-b  border-b-orange-300 gap-x-4 pb-4">
+            <div id="tem1" class="mt-[9px] ml-[11rem]">
+                <svg id="moon1" class="w-5 h-5 dark:text-white  rotate-[248deg]  cursor-pointer ">
+                    <use xlink:href="#moon"></use>
+                </svg>
+                <svg id="sun1" class="w-5 h-5   cursor-pointer ">
+                    <use xlink:href="#sun"></use>
+                </svg>
+            </div>
+            <svg class="w-5 h-5 mt-2 ml-2 dark:text-white " id="icon-close">
+                <use xlink:href="#Close"></use>
+            </svg>
+        </div>
+        <div class="mr-3 mt-4  inline-block  space-y-6 ">
+            <a href="#"
+                class="flex items-center gap-x-2 hover:text-orange-400 transition-all dark:text-white ">خدمات</a>
+            <a href="#"
+                class="flex items-center gap-x-2 hover:text-orange-400 transition-all dark:text-white ">نظرات</a>
+            <a href="#" class="flex items-center gap-x-2 hover:text-orange-400 transition-all dark:text-white ">تخفیف
+            </a>
+            <a href="#" class="flex items-center gap-x-2 hover:text-orange-400 transition-all dark:text-white ">نمونه
+                کارها</a>
+            <a href="#" class="flex items-center gap-x-2 hover:text-orange-400 transition-all dark:text-white ">
+                ارتباط</a>
+
+
+        </div>
+    </div>
+
+    <!-- section landig page -->
+    <section class=" hidden lg:flex ">
+        <div class="mr-20 w-[691px] h-[160px] mt-[135.7px] ">
+
+            <span class="text-zinc-800 font-bold lg:text-[55px]   text-[30px] dark:text-white ">میخوای یه سایت با</span>
+            <span class="text-orange-500 font-bold lg:text-[55px] text-[30px]">طراحی به روز</span>
+            <span class="text-zinc-800 font-bold lg:text-[55px] text-[30px] dark:text-white ">داشته باشه؟</span>
+            <p class="mt-6 text-zinc-800 w-[31rem]  dark:text-white ">آژانس طراحی فرانت ساز به همراه تیمی متخصص در طراحی
+                و
+                توسعه
+                وب‌سایت با
+                سال‌ها تجربه
+                در این زمینه در خدمت شماست.</p>
+            <button
+                class="w-[155px] h-[48px] bg-orange-500 mt-[48px] items-center text-center font-bold text-white rounded-lg cursor-pointer hover:bg-orange-600 transition-colors">
+                <span>اطلاعات بیشتر</span>
+            </button>
+        </div>
+        <div
+            class="justify-between w-[184px] h-[293px]     mt-[167px] mb-[199px]    lg:w-[595px] lg:h-[371px] lg:mt-[119px] mr-[17px] flex-shrink-0 ">
+            <img src="./imgs/image.png" alt="">
+        </div>
+
+
+
+    </section>
+    <div class=" hidden lg:flex  justify-center gap-4 mt-12">
+        <div class="mb-4 border-solid border-2 border-black/ w-[392px] h-[90px] text-center rounded-lg mt-6 space-y-2 ">
+            <h3 class="font-bold  mt-4 dark:text-white ">بهترین نتیجه در گوگل</h3>
+            <p class="text-black/40 dark:text-white/40 ">سه ماه سئوی رایگان محتوای وبلاگ سایت </p>
+        </div>
+        <div class=" mb-4 border-solid border-2 border-black/ w-[392px] h-[90px] text-center rounded-lg mt-6 space-y-2">
+            <h3 class="font-bold mt-4 dark:text-white ">طراحی ساده و کاربرپسند</h3>
+            <p class="text-black/40 dark:text-white/40 ">نمایش در تمام دسکتاپ ها :موبایل و لب تاپ </p>
+        </div>
+        <div class="mb-4 border-solid border-2 border-black/ w-[392px] h-[90px] text-center rounded-lg mt-6 space-y-2">
+            <h3 class="font-bold mt-4 dark:text-white ">متمایز بودن از رقبا</h3>
+            <p class="text-black/40 dark:text-white/40 ">طراحی زیباو چشم نواز با توجه به ترند های روز</p>
+        </div>
+    </div>
+
+    <!-- section landig page mobile -->
+    <section class="md:hidden">
+        <div class="justify-center h-[371px] flex mx-auto ">
+
+            <img src="./imgs/image.png" class="" alt="">
+        </div>
+        <div class=" text-center mt-[48px]">
+            <span class="text-zinc-800 font-bold lg:text-[55px]  dark:text-white text-[30px]">میخوای یه سایت با</span>
+            <span class="text-orange-500 font-bold lg:text-[55px] dark:text-white text-[30px]">طراحی به روز</span>
+            <span class="text-zinc-800 font-bold lg:text-[55px] dark:text-white text-[30px]">داشته باشه؟</span>
+        </div>
+        <div class="text-center mx-auto flex justify-center">
+            <p class="mt-6 text-zinc-800 w-[20rem] dark:text-white">آژانس طراحی فرانت ساز به همراه تیمی متخصص در طراحی و
+                توسعه
+                وب‌سایت با
+                سال‌ها تجربه
+                در این زمینه در خدمت شماست.</p>
+        </div>
+        <div class="flex justify-center">
+            <button
+                class="w-[320px] h-[48px] bg-orange-500 mt-[48px] items-center text-center font-bold text-white rounded-lg cursor-pointer hover:bg-orange-600 transition-colors">
+                <span>اطلاعات بیشتر</span>
+            </button>
+        </div>
+
+        <div class="  lg:flex   grid justify-center gap-4   ">
+            <div
+                class="mb-4 border-solid border-2 border-black/ w-[392px] h-[90px] text-center rounded-lg mt-6 space-y-2">
+                <h3 class="font-bold  mt-4 dark:text-white">بهترین نتیجه در گوگل</h3>
+                <p class="text-black/40 dark:text-white/40">سه ماه سئوی رایگان محتوای وبلاگ سایت </p>
+            </div>
+            <div
+                class=" mb-4 border-solid border-2 border-black/ w-[392px] h-[90px] text-center rounded-lg mt-6 space-y-2">
+                <h3 class="font-bold mt-4 dark:text-white">طراحی ساده و کاربرپسند</h3>
+                <p class="text-black/40 dark:text-white/40">نمایش در تمام دسکتاپ ها :موبایل و لب تاپ </p>
+            </div>
+            <div
+                class="mb-4 border-solid border-2 border-black/ w-[392px] h-[90px] text-center rounded-lg mt-6 space-y-2">
+                <h3 class="font-bold mt-4 dark:text-white">متمایز بودن از رقبا</h3>
+                <p class="text-black/40 dark:text-white/40">طراحی زیباو چشم نواز با توجه به ترند های روز</p>
+            </div>
+        </div>
+    </section>
+    <!-- section 2 desctop -->
+    <section>
+        <div class=" hidden lg:flex items-center gap-x-[111px] mr-[87px] ">
+            <div class="w-[595px] h-[414px]">
+                <img src="./imgs/image1.png" alt="#">
+            </div>
+            <div>
+                <spn class="text-blue-800 font-bold text-[2rem]">تیمی متخصص </spn>
+                <spn class="flex font-bold text-[2rem] dark:text-white">با توانایی های منحصر بفرد</spn>
+                <p class="mt-8 dark:text-white">ما می توانیم با تیم حرفه‌ای خود به شما برای تحقق اهدافتان کمک کنیم.</p>
+                <div class="mt-8 flex items-center mr-[18px] dark:text-white">
+                    <ul class="space-y-2">
+                        <li style="list-style-type: disc;" class="dark:text-white">خلاقیت: می‌توانیم راه‌حل‌های جدید و
+                            خلاقانهارائه دهیم</li>
+                        <li style="list-style-type: disc;" class="dark:text-white">دانش: با دانش روز دنیا توانایی حل
+                            هرگونه مسئله رو داریم</li>
+                        <li style="list-style-type: disc;" class="dark:text-white">همکاری: کار تیمی برای به نتیجه رسیدن
+                            در سریع‌ترین زمان</li>
+                    </ul>
+
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- section 2 mobile -->
+    <section class="md:hidden">
+        <div class="  flex items-center gap-x-[111px] mr-[87px]">
+            <div class="w-[319px] h-[221px] flex mx-auto  ">
+                <img src="./imgs/image1.png" alt="#">
+            </div>
+        </div>
+        <div class="flex mx-auto text-center justify-center mb-4">
+            <div>
+                <spn class=" text-lg text-blue-800 font-bold " style="font-size:xx-large;">تیمی متخصص </spn>
+                <spn class="flex justify-center font-bold dark:text-white " style="font-size:xx-large; ">با توانایی
+                    های منحصر بفرد</spn>
+                <p class="mb-6 dark:text-white" style="margin-top: 24px; font-size: larger;">ما می توانیم با تیم حرفه‌ای
+                    خود به شما برای
+                    تحقق اهدافتان کمک
+                    کنیم.</p>
+            </div>
+        </div>
+        <div class="mt-8 flex items-center mr-[18px] text-center justify-center ">
+            <ul class="space-y-2">
+                <li style="list-style-type: disc;" class="dark:text-white">خلاقیت: می‌توانیم راه‌حل‌های جدید و
+                    خلاقانهارائه دهیم
+                </li>
+                <li style="list-style-type: disc;" class="dark:text-white">دانش: با دانش روز دنیا توانایی حل هرگونه
+                    مسئله رو داریم
+                </li>
+                <li style="list-style-type: disc;" class="dark:text-white">همکاری: کار تیمی برای به نتیجه رسیدن در
+                    سریع‌ترین زمان
+                </li>
+            </ul>
+
+        </div>
+    </section>
+    <!-- section 3 desctop -->
+    <section class=" ">
+        <div class=" hidden lg:flex justify-center gap-[160px] mt-[15rem] w-[1147px] h-[300px] mx-auto">
+
+
+            <div class="w-[154px] h-[147px]">
+                <img src="./imgs/image5.png" alt="#">
+                <span class="flex justify-center mt-6 font-bold dark:text-white">طراحی به‌روز</span>
+                <p class="mt-4 text-black/40  text-center dark:text-white/40"
+                    style="font-size: smaller; font-weight: 600;">طراحی گرافیکی
+                    زیبا، جذاب و
+                    کاربرپسند برای جذب هرچه
+                    بیشتر کاربران
+                    با هر
+                    سلیقه‌ای </p>
+            </div>
+
+            <div class="w-[154px] h-[147px]">
+                <img src="./imgs/image4.png" alt="#">
+                <span class="flex justify-center mt-6 font-bold dark:text-white">سئوی محتوا</span>
+                <p class="mt-4 text-black/40  text-center dark:text-white/40"
+                    style="font-size: smaller; font-weight: 600;">بهینه‌سازی
+                    محتوای وب‌سایت به منظور بهبود رتبه محتوا در نتایج جستجو گوگل </p>
+            </div>
+            <div class="w-[154px] h-[147px]">
+                <img src="./imgs/image3.png" alt="#">
+                <span class="flex justify-center mt-6 font-bold dark:text-white">کدنویسی بهینه</span>
+                <p class="mt-4 text-black/40  text-center dark:text-white/40"
+                    style="font-size: smaller; font-weight: 600;">کدنویسی کارآمد،
+                    قابل نگهداری و قابل توسعه سایت برای گرفتن نتیجه مطلوب</p>
+            </div>
+
+            <div class="w-[154px] h-[147px]">
+                <img src="./imgs/image2.png" alt="#">
+                <span class="flex justify-center mt-6 font-bold dark:text-white">سرعت عالی</span>
+                <p class="mt-4 text-black/40  text-center dark:text-white/40"
+                    style="font-size: smaller; font-weight: 600;">انتخاب هاستینگ
+                    مناسب برای بارگذاری محتوا در سریعترین زمان ممکن برای کاربران</p>
+            </div>
+        </div>
+    </section>
+    <!-- section 3 mobile -->
+    <section class=" md:hidden mx-auto mt-[91px]">
+        <div class=" grid justify-center gap-8">
+
+
+            <div class="w-[154px] justify-center ">
+                <img src="./imgs/image5.png" alt="#">
+                <span class="flex justify-center mt-6 font-bold dark:text-white">طراحی به‌روز</span>
+                <p class="mt-4 text-black/40  text-center dark:text-white/40"
+                    style="font-size: smaller; font-weight: 600;">طراحی گرافیکی
+                    زیبا، جذاب و
+                    کاربرپسند برای جذب هرچه
+                    بیشتر کاربران
+                    با هر
+                    سلیقه‌ای </p>
+            </div>
+
+            <div class="w-[154px]">
+                <img src="./imgs/image4.png" alt="#">
+                <span class="flex justify-center mt-6 font-bold dark:text-white">سئوی محتوا</span>
+                <p class="mt-4 text-black/40  text-center dark:text-white/40"
+                    style="font-size: smaller; font-weight: 600;">بهینه‌سازی
+                    محتوای وب‌سایت به منظور بهبود رتبه محتوا در نتایج جستجو گوگل </p>
+            </div>
+            <div class="w-[154px]">
+                <img src="./imgs/image3.png" alt="#">
+                <span class="flex justify-center mt-6 font-bold dark:text-white">کدنویسی بهینه</span>
+                <p class="mt-4 text-black/40  text-center dark:text-white/40"
+                    style="font-size: smaller; font-weight: 600;">کدنویسی کارآمد،
+                    قابل نگهداری و قابل توسعه سایت برای گرفتن نتیجه مطلوب</p>
+            </div>
+
+            <div class="w-[154px]">
+                <img src="./imgs/image2.png" alt="#">
+                <span class="flex justify-center mt-6 font-bold dark:text-white">سرعت عالی</span>
+                <p class="mt-4 text-black/40  text-center dark:text-white/40"
+                    style="font-size: smaller; font-weight: 600;">انتخاب هاستینگ
+                    مناسب برای بارگذاری محتوا در سریعترین زمان ممکن برای کاربران</p>
+            </div>
+        </div>
+    </section>
+    <!-- section 3 desctop -->
+    <section class=" hidden lg:flex justify-center">
+        <div class="w-[766px] h-[392px]  mt-[240px] ">
+            <div class="text-center ">
+                <span class="text-orange-600  text-5xl  font-bold">تخفیف طراحی سایت</span>
+                <span class=" text-zinc-900 font-bold text-5xl dark:text-white">برای مدت محدود</span>
+                <p class="mt-6 text-black/40 dark:text-white">برای استفاده از تخفیف ویژه طراحی سایت فقط تا قبل از
+                    اتمام زمان زیر فرصت
+                    دارید. اطلاعات
+                    خواسته شده رو
+                    وارد کنید و منتظر تماس ما باشید. </p>
+            </div>
+            <div class="flex justify-center mt-10 gap-[70px] ">
+
+                <div class="grid ">
+                    <span class="text-6xl font-bold dark:text-white" id="second">00</span>
+                    <span class="text-center  mt-4 text-black/40 dark:text-white/40">ثانیه</span>
+                </div>
+                <span class="text-6xl font-bold dark:text-white/40">:</span>
+                <div class="grid">
+                    <span class="text-6xl font-bold dark:text-white" id="min">00</span>
+                    <span class="text-center  mt-4 text-black/40 dark:text-white/40">دقیقه</span>
+
+                </div>
+
+                <span class="text-6xl font-bold dark:text-white/40">:</span>
+
+                <div class="grid">
+                    <span class="text-6xl font-bold dark:text-white" id="hours">00</span>
+                    <span class="text-center mt-4  text-black/40 dark:text-white/40">ساعت</span>
+
+                </div>
+                <div class="grid">
+                    <span class="text-6xl font-bold dark:text-white" id="Day">00</span>
+                    <span class="text-center mt-4 text-black/40 dark:text-white/40">روز</span>
+
+                </div>
+
+            </div>
+            <div class="flex mt-10 justify-center gap-4">
+
+                <input type="text"
+                    class="w-[289px] h-[48px] border-[2px] focus:outline-none border-gray-300 rounded-[8px] p-2"
+                    placeholder="شماره تماس" id="input-foon">
+
+                <input type="text"
+                    class="w-[289px] h-[48px] border-[2px] focus:outline-none border-gray-300 rounded-[8px] p-2"
+                    placeholder="نام شما" id="input-name">
+                <button class="bg-orange-500 hover:bg-orange-600 text-white font-bold p-3 w-[10rem] rounded-lg "
+                    id="reigesterform">دریافت
+                    تخفیف</button>
+            </div>
+
+        </div>
+    </section>
+    <!-- section 3 mobile -->
+    <section class=" md:hidden flex justify-center">
+        <div class="w-[321px] h-[596px]  mt-[165px] ">
+            <div class="text-center ">
+                <span class="text-orange-600  text-3xl  font-bold">تخفیف طراحی سایت</span>
+                <span class=" text-zinc-900 font-bold text-3xl dark:text-white">برای مدت محدود</span>
+                <p class="mt-6 text-sm text-black/40 dark:text-white">برای استفاده از تخفیف ویژه طراحی سایت فقط تا قبل
+                    از اتمام زمان
+                    زیر فرصت
+                    دارید. اطلاعات
+                    خواسته شده رو
+                    وارد کنید و منتظر تماس ما باشید. </p>
+            </div>
+            <div class="flex justify-center mt-10 gap-[18px] ">
+
+                <div class="grid ">
+                    <span class="text-5xl font-bold dark:text-white" id="second1">00</span>
+                    <span class="text-center  mt-4 text-black/40  dark:text-white/40">ثانیه</span>
+                </div>
+                <span class="text-5xl font-bold dark:text-white/40">:</span>
+                <div class="grid">
+                    <span class="text-5xl font-bold dark:text-white" id="min1">00</span>
+                    <span class="text-center  mt-4 text-black/40 dark:text-white/40">دقیقه</span>
+
+                </div>
+
+                <span class="text-5xl font-bold dark:text-white/40">:</span>
+
+                <div class="grid">
+                    <span class="text-5xl font-bold dark:text-white" id="hours1">00</span>
+                    <span class="text-center mt-4  text-black/40 dark:text-white/40">ساعت</span>
+
+                </div>
+                <div class="grid">
+                    <span class="text-5xl font-bold dark:text-white" id="Day1">00</span>
+                    <span class="text-center mt-4 text-black/40 dark:text-white/40">روز</span>
+
+                </div>
+
+            </div>
+            <div class=" mt-10 ">
+
+                <input type="text"
+                    class="w-[320px] h-[48px] flex border-[2px] focus:outline-none mb-4 border-gray-300 rounded-[8px] p-2"
+                    placeholder="شماره تماس" id="input-name1">
+
+                <input type="text"
+                    class="w-[320px] h-[48px] flex border-[2px] focus:outline-none mb-6 border-gray-300 rounded-[8px] p-2"
+                    placeholder="نام شما" id="input-foon1">
+                <button
+                    class="bg-orange-500 hover:bg-orange-600 flex text-white font-bold p-3 w-[319px] h-[48px]  justify-center rounded-lg"
+                    id="reigesterform1">دریافت
+                    تخفیف </button>
+            </div>
+        </div>
+    </section>
+    <!-- section 4 desctop -->
+    <section class="mt-[20rem]">
+        <div class="hidden lg:flex  h-[459px] m-[80px] justify-between ">
+            <!-- متن -->
+            <div class="flex-grow  flex-col justify-center mr-8">
+                <p>
+                    <span class="text-zinc-800 font-bold text-4xl dark:text-white">نیاز به</span>
+                    <span class="text-blue-700 font-bold text-4xl">راهنمایی</span>
+                    <span class="text-zinc-800 font-bold text-4xl dark:text-white">بیشتر دارید؟</span>
+                </p>
+                <p class="text-black/40 mt-7 dark:text-white/40">
+                    <span>ما همیشه آماده کمک هستیم. کافیه یکی از روش‌های ارتباطی زیر رو انتخاب کنید. </span>
+                    <span class="flex">تیم پشتیبانی در سریعترین زمان ممکن با شما ارتباط می‌گیرن.</span>
+                </p>
+                <div class="mt-[48px] space-y-4 cursor-pointer">
+                    <div class="w-[188px] h-[32px] bg-sky-100 rounded-3xl flex text-center items-center pr-2">
+                        <svg class="w-[13px] h-[11.76px]">
+                            <use xlink:href="#telefoon"></use>
+                        </svg>
+                        <span class="text-[10px] mr-[88px] p-1 text-blue-800">**********</span>
+                    </div>
+                    <div class="w-[188px] h-[32px] bg-sky-100 rounded-3xl flex text-center items-center pr-2">
+                        <svg class="w-[13px] h-[11.76px]">
+                            <use xlink:href="#sms"></use>
+                        </svg>
+                        <span class="text-[10px] mr-[26px] p-1 text-blue-800">mahdimazhabi@gmail.com</span>
+                    </div>
+                    <div class="w-[188px] h-[32px] bg-sky-100 rounded-3xl flex text-center items-center pr-2">
+                        <svg class="w-[13px] h-[11.76px]">
+                            <use xlink:href="#inestgrm"></use>
+                        </svg>
+                        <span class="text-[10px] mr-[74px] p-1 text-blue-800">khodemhdi_mz</span>
+                    </div>
+                </div>
+            </div>
+            <!-- تصویر -->
+            <div class="w-[595px] h-[459px] flex-shrink-0">
+                <img class="object-cover w-full h-full" src="./imgs/image6.png" alt="#">
+            </div>
+        </div>
+    </section>
+
+    <!-- section 4 mobile -->
+    <section>
+        <div class="md:hidden   h-[630px] ">
+            <div class="grid justify-center">
+                <img class="w-[320px] h-[247px]  justify-self-center" src="./imgs/image6.png" alt="#">
+                <div style="justify-self: baseline;">
+
+
+                    <p>
+                        <span class="text-zinc-800  font-bold text-2xl dark:text-white">نیاز به</span>
+                        <span class="text-blue-700 font-bold text-2xl">راهنمایی</span>
+                        <span class="text-zinc-800  font-bold text-2xl dark:text-white">بیشتر دارید؟</span>
+                    </p>
+                    <p class=" text-black/40 mt-7 dark:text-white/40">
+                        <span>ما همیشه آماده کمک هستیم. کافیه یکی از روش‌های ارتباطی زیر رو انتخاب کنید. </span>
+                        <span class="flex">تیم پشتیبانی در سریعترین زمان ممکن با شما ارتباط می‌گیرن.</span>
+                    </p>
+                </div>
+                <div class="mt-[48px] space-y-4 cursor-pointer grid justify-center">
+                    <div class="w-[188px] h-[32px] bg-sky-100   rounded-3xl flex text-center items-center pr-2 ">
+                        <svg class="w-[13px] h-[11.76px] ">
+                            <use xlink:href="#telefoon"></use>
+                        </svg>
+                        <span class="text-[10px] mr-[88px] p-1 text-blue-800  ">***********</span>
+                    </div>
+                    <div class="w-[188px] h-[32px] bg-sky-100   rounded-3xl flex text-center items-center pr-2 ">
+                        <svg class="w-[13px] h-[11.76px]">
+                            <use xlink:href="#sms"></use>
+                        </svg>
+                        <span class="text-[10px] mr-[26px] p-1 text-blue-800  ">mahdimazhabi@gmail.com</span>
+                    </div>
+                    <div class="w-[188px] h-[32px] bg-sky-100   rounded-3xl flex text-center items-center pr-2">
+                        <svg class="w-[13px] h-[11.76px]">
+                            <use xlink:href="#inestgrm"></use>
+                        </svg>
+                        <span class="text-[10px] mr-[74px] p-1 text-blue-800  ">khodemhdi_mz</span>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer desctop -->
+    <hr>
+    <footer class="h-[100px] flex justify-center items-center relative">
+        <div class="text-center">
+            <p class="text-blue-800 font-bold dark:text-white">© تمامی حقوق طراحی این سایت محفوظ است.</p>
+        </div>
+        <div class="absolute left-0 ml-[90px]">
+            <a href="https://t.me/MHD_Web_developer">
+                <svg class="w-[24px] h-[24px]">
+                    <use xlink:href="#telegrom"></use>
+                </svg>
+            </a>
+        </div>
+    </footer>
+
+
+
+
+
+
+    <script src="./app.js"></script>
+</body>
+
+</html>
